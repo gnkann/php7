@@ -5,7 +5,7 @@ require_once __DIR__ . '/classes/CountingPDO.php';
 $dbHost = '127.0.0.1';
 $dbName = 'practicum4';
 $dbUser = 'root';
-$dbPass = 'orange33';
+$dbPass = 'password';
 
 try {
     $pdo = new CountingPDO(
